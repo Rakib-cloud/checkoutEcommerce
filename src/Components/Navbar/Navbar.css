@@ -1,0 +1,61 @@
+
+.hoverPage{
+    display: none;
+    position: absolute;
+    top:20px;
+    left: 25px;
+    width: 500px;
+    height: 200px;
+    z-index:99;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+
+}
+
+.showingItem:hover .hoverPage{
+    display: block !important;
+
+   
+    
+  }
+
+.hoverPage1{
+    display: none;
+    position: absolute;
+    top:20px;
+    left: 25px !important;
+    width: 500px;
+    height: 200px;
+    z-index:99;
+    background-color: white ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.showingItem1:hover .hoverPage1{
+    display: block !important;
+   
+    
+  }
+
+.common_font_style{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.mobile_device{
+    display: flex;
+    justify-content: space-between !important;
+    
+}
+
+@media (min-width: 1024px) {
+    .mobile_device {
+        display: none;
+    }
+}
+
+
+
+
+      

@@ -1,0 +1,22 @@
+.hero_section{
+
+    background: linear-gradient(to right, rgb(40 42 54 / 99%), transparent), url(https://www.fujitsu.com/us/imagesgig5/contactus_tcm127-6317963_tcm127-6286607-32.jpg) right center no-repeat;
+    
+    }
+    
+    
+  
+    .font_family{
+        font-family: 'Poppins', sans-serif;
+    }
+    section input {
+            width: 410px;
+            text-align: left;
+            border-radius: 5px;
+            background: #eee;
+            outline: none;
+            border: none;
+            color: #222;
+            margin-bottom: 10px;
+        }
+        
